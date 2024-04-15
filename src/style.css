@@ -1,0 +1,71 @@
+.serif {
+    font-family: 'Noto Serif';
+}
+
+@font-face {
+    font-family: PWFicelles;
+    src: url(assets/Pwficelles-4Kv4.ttf);
+}
+
+.straw-font {
+    font-family: PWFicelles;
+    src: url(assets/Pwficelles-4Kv4.ttf);
+}
+
+@font-face {
+    font-family: Bricks;
+    src: url(assets/BricksPersonalUseBold-ALqzx.ttf);
+}
+
+@font-face{
+    font-family: Wood;
+    src: url(assets/Wood-2.ttf);
+}
+
+@font-face {
+    font-family: Piggy;
+    src: url(assets/Peppa\ Pig.ttf);
+}
+
+.bricks-font {
+    font-family: Bricks;
+}
+
+.piggy-font {
+    font-family: Piggy;
+}
+
+.wood-font {
+    font-family: Wood;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.dropdown-btn {
+    position: relative;
+}
+
+.dropdown-arrow {
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+}
